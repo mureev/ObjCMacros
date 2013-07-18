@@ -20,10 +20,10 @@ NSLS(@"UNIQUE_KEY");
 
 ```objective-c
 if (IS_POPULATED_STRING(str)) {
-        <#statements-if-true#>
-    } else {
-        <#statements-if-false#>
-    }
+        // statements-if-true
+} else {
+        // statements-if-false
+}
 ```
 
 ### And even more!
