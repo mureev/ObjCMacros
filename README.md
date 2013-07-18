@@ -19,7 +19,11 @@ NSLS(@"UNIQUE_KEY");
 ### Is populated string?
 
 ```objective-c
-IS_POPULATED_STRING(str);
+if (IS_POPULATED_STRING(str)) {
+        <#statements-if-true#>
+    } else {
+        <#statements-if-false#>
+    }
 ```
 
 ### And even more!
