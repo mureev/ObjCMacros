@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary			= 'Set of macros and constants that speed up development without adding any new classes and categories.'
   s.homepage		= 'https://github.com/mureev/ObjCMacros'
   s.author = {
-    'Constantine Mureev' => 'mureev@gmail.com'
+    'Constantine Mureev' => 'mureev@gmail.com',
     'Artem Samalov' => 'artem.samalov@gmail.com'
   }
   s.source = {
