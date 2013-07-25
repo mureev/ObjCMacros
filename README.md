@@ -29,6 +29,14 @@ if (IS_POPULATED_STRING(str)) {
 }
 ```
 
+### Asserts / Exceptions 
+
+```objective-c
+- (void)methodName {
+    THROW_NOT_IMPLEMENTED_EXCEPTION
+}
+```
+
 ### And even more!
 
 ObjCMacros.h contains so many to choose from!
