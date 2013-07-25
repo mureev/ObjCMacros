@@ -1,7 +1,7 @@
 # ObjCMacros
 
-[Badge w/ Version](http://cocoapod-badges.herokuapp.com/v/ObjCMacros/badge.png)
-[Badge w/ Platform](http://cocoapod-badges.herokuapp.com/p/ObjCMacros/badge.png)
+[![Badge w/ Version](http://cocoapod-badges.herokuapp.com/v/ObjCMacros/badge.png)](https://github.com/mureev/ObjCMacros)
+[![Badge w/ Platform](http://cocoapod-badges.herokuapp.com/p/ObjCMacros/badge.png)](https://github.com/mureev/ObjCMacros)
 
 ObjCMacros is set of macros and constants that speed up development without adding any new classes and categories.
 
