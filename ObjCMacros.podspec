@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name			= 'ObjCMacros'
-  s.version			= '1.0.0'
+  s.version			= '1.0.1'
   s.license  		= 'MIT'
   s.summary			= 'Set of macros and constants that speed up development without adding any new classes and categories.'
   s.homepage		= 'https://github.com/mureev/ObjCMacros'
