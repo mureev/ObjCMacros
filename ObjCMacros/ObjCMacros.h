@@ -56,7 +56,7 @@
 #define IS_IPOD         ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPod touch" ] )
 #define IS_IPAD         ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPad" ] )
 
-#define CAN_CALL        ( [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"tel://"]] )
+#define CAN_CALL        ( [ [ UIApplication sharedApplication ] canOpenURL: [ NSURL URLWithString: @"tel://" ] ] )
 
 /*
  *  Screen / Display
