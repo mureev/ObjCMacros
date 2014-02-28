@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   }
   s.source = {
     :git => 'https://github.com/mureev/ObjCMacros.git',
-    :tag => '1.1.0'
+    :tag => 'v1.1.0'
   }
   s.requires_arc	= false
   s.source_files	= 'ObjCMacros/*.{h,m}'
