@@ -25,6 +25,14 @@
 #define IS_POPULATED_STRING(str)        ((str) && [(str) isKindOfClass:NSString.class] && [(str) length] > 0)
 
 /*
+ * Dates
+ */
+
+
+#define IS_EMPTY_DATE(str)            (!(date) || ![(date) isKindOfClass:NSDate.class] || [(date) timeIntervalSince1970] == 0)
+#define IS_POPULATED_DATE(date)        ((date) && [(date) isKindOfClass:NSDate.class] && [(date) timeIntervalSince1970] > 0)
+
+/*
  *  Arrays
  */
 
